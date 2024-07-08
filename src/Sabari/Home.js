@@ -7,7 +7,7 @@ import restaurant from "../../src/Sabari/Photo/restaurant.jpg";
 import w3school from "../../src/Sabari/Photo/w3school.jpg";
 import zomato from "../../src/Sabari/Photo/zomato.PNG";
 import calculater from "../../src/Sabari/Photo/calculater.PNG";
-import Sabarinayagam_Resume from "../../src/Sabari/Photo/Sabarinayagam_Resume.pdf";
+import Sabarinayagam_Resume from "../../src/Sabari/Photo/Sabarinayagam-Resume.pdf";
 
 import Stack from "@mui/material/Stack";
 import { IconButton } from "@mui/material";
@@ -56,7 +56,7 @@ const Home = () => {
               src={Sabarilogo}
               sx={{ width: 50, height: 50 }}
             />
-            <a href="#">Sabari</a>
+            <a href="#" className="logoname">Sabari</a>
           </Stack>
         </div>
         <ul className={isOpen ? "showmenu" : ""}>
@@ -319,7 +319,7 @@ const Home = () => {
               </p>
 
               <a
-                href="https://sabariproject1.000webhostapp.com/"
+                href="https://sabarinayagam.github.io/Zomato-Landing-Page/"
                 target="_blank"
               >
                 <p>
@@ -349,7 +349,7 @@ const Home = () => {
               </p>
 
               <a
-                href="https://sabariproject1.000webhostapp.com/"
+                href="https://sabarinayagam.github.io/Calculator/"
                 target="_blank"
               >
                 <p>
