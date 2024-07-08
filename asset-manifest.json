@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2b51130c.css",
+    "main.js": "/Portfolio/static/js/main.4b9ac641.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/zomato.PNG": "/Portfolio/static/media/zomato.6711486320cf31ea4ffb.PNG",
+    "static/media/logo.png": "/Portfolio/static/media/logo.094ebb7de4cd4491a617.png",
+    "static/media/restaurant.jpg": "/Portfolio/static/media/restaurant.93e966da8e470bd3b9a0.jpg",
+    "static/media/react.jpg": "/Portfolio/static/media/react.03c0bebe997f38fd3275.jpg",
+    "static/media/w3school.jpg": "/Portfolio/static/media/w3school.b599822a07e5ea77a1de.jpg",
+    "static/media/Sabarinayagam_Resume.pdf": "/Portfolio/static/media/Sabarinayagam_Resume.1442b4d2c2edc16a1974.pdf",
+    "static/media/Sabari1.jpg": "/Portfolio/static/media/Sabari1.d90c9d1230caf9c56d83.jpg",
+    "static/media/calculater.PNG": "/Portfolio/static/media/calculater.82d80440e3ee438c2bd0.PNG",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.2b51130c.css.map": "/Portfolio/static/css/main.2b51130c.css.map",
+    "main.4b9ac641.js.map": "/Portfolio/static/js/main.4b9ac641.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b51130c.css",
+    "static/js/main.4b9ac641.js"
+  ]
+}
