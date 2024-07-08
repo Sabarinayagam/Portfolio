@@ -54,7 +54,7 @@ const Home = () => {
             <Avatar
               alt="logo"
               src={Sabarilogo}
-              sx={{ width: 50, height: 50 }}
+              sx={{ width: 50, height: 45 }}
             />
             <a href="#" className="logoname">Sabari</a>
           </Stack>
