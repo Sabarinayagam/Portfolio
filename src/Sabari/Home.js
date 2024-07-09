@@ -56,7 +56,9 @@ const Home = () => {
               src={Sabarilogo}
               sx={{ width: 50, height: 45 }}
             />
-            <a href="#" className="logoname">Sabari</a>
+            <a href="#" className="logoname">
+              Sabari
+            </a>
           </Stack>
         </div>
         <ul className={isOpen ? "showmenu" : ""}>
@@ -141,15 +143,15 @@ const Home = () => {
             About <span style={{ color: "rgb(218, 63, 29)" }}>Me :</span>
           </h1>
           <p>
-            I am Sabari Nayagam. I have completed B.Tech, from the SRM Institute
-            of Science and Technology.I have one year of experience as a
-            Front-End Developer.I have completed a Certified Full Stack Java
-            Development course.
+            I am Sabari Nayagam. I graduated from the SRM Institute of Science
+            and Technology with a B.Tech. I have one year of experience as a
+            front-end developer. I have completed a full-stack Java development
+            course and received certification in it.
             <span className="spancont">
               {" "}
-              and I have good knowledge of HTML5, CSS3,Bootstrap, Material-UI,
-              JavaScript,React Js,Redux, Saga,Formik,Yup, React-router-dom,Node
-              JS, Express JS,Java, MySQL GitHub API integration.
+              and proficient in HTML5, CSS3, Bootstrap, Material-UI, JavaScript,
+              Redux, React JS, Yup, Formik, Node JS, Express JS, Java, MySQL,
+              GitHub, and API integration.
             </span>
           </p>
         </div>
