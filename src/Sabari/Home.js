@@ -8,6 +8,7 @@ import w3school from "../../src/Sabari/Photo/w3school.jpg";
 import zomato from "../../src/Sabari/Photo/zomato.PNG";
 import calculater from "../../src/Sabari/Photo/calculater.PNG";
 import Sabarinayagam_Resume from "../../src/Sabari/Photo/Sabarinayagam-Resume.pdf";
+import Sabari_Resume from "../../src/Sabari/Photo/Sabari_Resume.pdf";
 
 import Stack from "@mui/material/Stack";
 import { IconButton } from "@mui/material";
@@ -78,7 +79,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href={Sabarinayagam_Resume} download>
+            <a href={Sabari_Resume} download="Sabari Resume.pdf">
               <button className="btn">Resume</button>
             </a>
           </li>
@@ -108,7 +109,7 @@ const Home = () => {
             <h1>Sabari Nayagam</h1>
             <h2>Java Full Stack Developer</h2>
             <Stack spacing={2} direction="row">
-              <a href={Sabarinayagam_Resume} download>
+              <a href={Sabari_Resume} download="Sabari Resume.pdf">
                 {" "}
                 <button className="btn">Resume </button>{" "}
               </a>
@@ -479,7 +480,7 @@ const Home = () => {
                   </IconButton>
                 </a>
               </div>
-              <a href={Sabarinayagam_Resume} download>
+              <a href={Sabari_Resume} download="Sabari Resume.pdf">
                 <button className="btn">Download CV</button>
               </a>
             </div>
