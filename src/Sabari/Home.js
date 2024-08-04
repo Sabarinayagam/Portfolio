@@ -233,36 +233,7 @@ const Home = () => {
                 integration.
               </p>
               <a
-                href="https://sabarinayagam-react-project.000webhostapp.com/"
-                target="_blank"
-              >
-                <p>
-                  {" "}
-                  <IconButton
-                    size="60px"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 1, size: "20px" }}
-                  >
-                    <LaunchIcon></LaunchIcon>
-                  </IconButton>
-                  Live Link
-                </p>
-              </a>
-            </div>
-          </div>
-          <div className="project">
-            <img src={restaurant} alt=" Restaurant Project_Photo"></img>
-            <div className="layer">
-              <h1>Restaurant Website</h1>
-              <p>
-                Restaurant project using Java and MySQL. the Food Delivery
-                Application allows users to order food from a variety of
-                restaurants and have it delivered to their location.
-              </p>
-              <a
-                href="https://sabarinayagam-react-project.000webhostapp.com/"
+                href="https://sabari-ecommerce-project.netlify.app/"
                 target="_blank"
               >
                 <p>
@@ -293,6 +264,35 @@ const Home = () => {
 
               <a
                 href="https://sabarinayagam.github.io/w3schools/"
+                target="_blank"
+              >
+                <p>
+                  {" "}
+                  <IconButton
+                    size="60px"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ mr: 1, size: "20px" }}
+                  >
+                    <LaunchIcon></LaunchIcon>
+                  </IconButton>
+                  Live Link
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="project">
+            <img src={restaurant} alt=" Restaurant Project_Photo"></img>
+            <div className="layer">
+              <h1>Restaurant Website</h1>
+              <p>
+                Restaurant project using Java and MySQL. the Food Delivery
+                Application allows users to order food from a variety of
+                restaurants and have it delivered to their location.
+              </p>
+              <a
+                href="https://sabari-ecommerce-project.netlify.app/"
                 target="_blank"
               >
                 <p>
