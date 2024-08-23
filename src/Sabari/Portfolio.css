@@ -3,17 +3,25 @@ body {
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --orange: #ff4500;
+  --red: #ff0000;
+}
+
 html {
   scroll-behavior: smooth;
 }
 nav {
-  background-color: black;
+  background-color: var(--black);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: var(--white);
   position: fixed;
+  z-index: 1;
 }
 
 nav li {
@@ -24,7 +32,7 @@ nav li {
 nav a,
 a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 .logo {
@@ -35,19 +43,48 @@ a {
 }
 
 nav a:hover {
-  color: orangered;
+  color: var(--orange);
 }
 
 .menu-line {
   height: 3px;
   width: 20px;
-  background-color: white;
+  background-color: var(--white);
   margin-bottom: 3px;
+  transition: all 0.3s ease;
 }
 
 .menu {
   cursor: pointer;
   display: none;
+}
+
+.linea {
+  height: 3px;
+  width: 20px;
+  background-color: var(--white);
+  margin-bottom: 3px;
+  transform: rotate(45deg) translate(5px, 5px);
+  transition: all 0.3s ease;
+}
+.lineb {
+  opacity: 0;
+  height: 3px;
+  width: 20px;
+  background-color: var(--white);
+  margin-bottom: 3px;
+  transform: rotate(45deg) translate(5px, 5px);
+  transition: all 0.3s ease;
+}
+
+.linec {
+  height: 3px;
+  width: 20px;
+  background-color: var(--white);
+  margin-bottom: 3px;
+  transition: all 0.3s ease;
+  transform: rotate(-45deg) translate(5px, -5px);
+  margin-top: 5px;
 }
 
 /*.................. botton .....................*/
@@ -135,7 +172,10 @@ nav a:hover {
 
 marquee {
   margin-top: 85px;
-  color: orangered;
+  color: var(--orange);
+}
+.marq {
+  color: var(--black);
 }
 
 /* ...........................banner................................... */
@@ -144,12 +184,12 @@ marquee {
   height: 400px;
   max-width: 100%;
   display: flex;
-  background-color: black;
+  background-color: var(--black);
 }
 .photo {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: var(--black);
 }
 .photo img {
   width: 100%;
@@ -160,7 +200,7 @@ marquee {
 .name {
   height: 100%;
   width: 100%;
-  color: white;
+  color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +218,7 @@ marquee {
 }
 .namecont p {
   font-size: 30px;
-  color: orangered;
+  color: var(--orange);
 }
 .namecont h2 {
   font-size: 30px;
@@ -229,15 +269,15 @@ marquee {
 /* ................black............... */
 .black {
   height: auto;
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   margin-top: 0;
 }
 .techskill {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--white);
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -254,7 +294,7 @@ marquee {
 }
 .skills h1 {
   margin: 10px;
-  color: orangered;
+  color: var(--orange);
 }
 .btns {
   margin-left: 240px;
@@ -266,7 +306,7 @@ marquee {
   border-radius: 50px;
   padding: 10px 20px;
   background-color: #4bdc1bf0;
-  color: white;
+  color: var(--white);
   margin-left: 10px;
   margin-top: 2px;
 }
@@ -322,13 +362,13 @@ td {
   border-radius: 50px;
   padding: 10px 20px;
   background-color: #4bdc1bf0;
-  color: white;
+  color: var(--white);
   margin-left: 10px;
   margin-top: 2px;
   border-color: orange;
 }
 .tablebtn:hover {
-  color: red;
+  color: var(--red);
 }
 
 /* ....................projects.................. */
@@ -398,7 +438,7 @@ td {
   align-items: center;
 }
 .sub_title {
-  color: white;
+  color: var(--white);
   font-size: 60px;
 }
 .sub_title p {
@@ -414,10 +454,10 @@ td {
   font-size: 30px;
 }
 .cont_left:nth-child(2) {
-  color: red;
+  color: var(--red);
 }
 .cont_left p i {
-  color: white;
+  color: var(--white);
   margin-top: 15px;
   font-size: 25px;
 }
@@ -425,12 +465,12 @@ td {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: white;
+  color: var(--white);
   display: inline-block;
   transition: transform 0.5s;
 }
 .icon a:hover {
-  color: orange;
+  color: var(--orange);
   transform: translateY(-5px);
 }
 .cont_right form {
@@ -444,7 +484,7 @@ form textarea {
   background: #212423;
   padding: 15px;
   margin: 15px 0;
-  color: white;
+  color: var(--white);
   font-size: 20px;
   border-radius: 6px;
 }
@@ -489,7 +529,7 @@ footer {
     top: 25px;
   }
   marquee {
-    color: red;
+    color: var(--orange);
     font-size: 20px;
   }
 
@@ -595,12 +635,12 @@ footer {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: white;
+    color: var(--white);
     display: inline-block;
     transition: transform 0.5s;
   }
   .icon a:hover {
-    color: orange;
+    color: var(--orange);
     transform: translateY(-5px);
   }
 }
@@ -668,7 +708,7 @@ footer {
   #heading {
     font-size: 40px;
   }
-  .logoname{
+  .logoname {
     font-size: 35px;
   }
 }

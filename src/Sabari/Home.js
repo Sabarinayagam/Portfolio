@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../Sabari/Portfolio.css";
 import Sabari1 from "../../src/Sabari/Photo/Sabari1.jpg";
 import Sabarilogo from "D:/Portfolio/portfolio/src/Sabari/Photo/logo.png";
@@ -19,13 +19,38 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LaunchIcon from "@mui/icons-material/Launch";
 import Avatar from "@mui/material/Avatar";
+import zIndex from "@mui/material/styles/zIndex";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navbarRef = useRef(null);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+
+  const handleTouchOutside = (event) => {
+    if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+  const handleScroll = () => {
+    setIsOpen(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener('touchstart', handleTouchOutside);
+    document.addEventListener('mousedown', handleTouchOutside);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      document.removeEventListener('touchstart', handleTouchOutside);
+      document.removeEventListener('mousedown', handleTouchOutside);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   const data = [
     { "Programming Languages": ["Java", "JavaScript"] },
@@ -49,7 +74,7 @@ const Home = () => {
   return (
     <>
       {/* ..................Navbar................... */}
-      <nav>
+      <nav ref={navbarRef}>
         <div class="logo">
           <Stack direction="row" spacing={2}>
             <Avatar
@@ -90,12 +115,12 @@ const Home = () => {
           </li>
         </ul>
         <div class="menu" onClick={toggleNavbar}>
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
+          <div  className={isOpen ? "linea":"menu-line"}></div>
+          <div className={isOpen ? "lineb":"menu-line"}></div>
+          <div className={isOpen ? "linec":"menu-line"}></div>
         </div>
       </nav>
-      <marquee>
+      <marquee className={isOpen ? "marq" : ""}>
         Certified Java Full Stack Developer | B.Tech. Graduate from SRM
         Institute of Science and Technology
       </marquee>
