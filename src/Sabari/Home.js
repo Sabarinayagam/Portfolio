@@ -132,7 +132,7 @@ const Home = () => {
           <div className="namecont">
             <p>Hello I'm</p>
             <h1>Sabari Nayagam</h1>
-            <h2>Java Full Stack Developer</h2>
+            <h2>Front End Developer</h2>
             <Stack spacing={2} direction="row">
               <a href={Sabari_Resume} download="Sabari Resume.pdf">
                 {" "}
