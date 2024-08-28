@@ -29,7 +29,6 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
-
   const handleTouchOutside = (event) => {
     if (navbarRef.current && !navbarRef.current.contains(event.target)) {
       setIsOpen(false);
@@ -40,17 +39,16 @@ const Home = () => {
   };
 
   useEffect(() => {
-    document.addEventListener('touchstart', handleTouchOutside);
-    document.addEventListener('mousedown', handleTouchOutside);
-    window.addEventListener('scroll', handleScroll);
+    document.addEventListener("touchstart", handleTouchOutside);
+    document.addEventListener("mousedown", handleTouchOutside);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      document.removeEventListener('touchstart', handleTouchOutside);
-      document.removeEventListener('mousedown', handleTouchOutside);
-      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener("touchstart", handleTouchOutside);
+      document.removeEventListener("mousedown", handleTouchOutside);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   const data = [
     { "Programming Languages": ["Java", "JavaScript"] },
@@ -115,9 +113,9 @@ const Home = () => {
           </li>
         </ul>
         <div class="menu" onClick={toggleNavbar}>
-          <div  className={isOpen ? "linea":"menu-line"}></div>
-          <div className={isOpen ? "lineb":"menu-line"}></div>
-          <div className={isOpen ? "linec":"menu-line"}></div>
+          <div className={isOpen ? "linea" : "menu-line"}></div>
+          <div className={isOpen ? "lineb" : "menu-line"}></div>
+          <div className={isOpen ? "linec" : "menu-line"}></div>
         </div>
       </nav>
       <marquee className={isOpen ? "marq" : ""}>
@@ -338,6 +336,36 @@ const Home = () => {
           </div>
           {/*  */}
           <div className="project">
+            <img src={calculater} alt="Calculater Project_Photo"></img>
+            <div className="layer">
+              <h1>Calculator</h1>
+              <p>
+                A fully functional calculator created using HTML, CSS, and
+                JavaScript
+              </p>
+
+              <a
+                href="https://sabarinayagam.github.io/Calculator/"
+                target="_blank"
+              >
+                <p>
+                  {" "}
+                  <IconButton
+                    size="60px"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ mr: 1, size: "20px" }}
+                  >
+                    <LaunchIcon></LaunchIcon>
+                  </IconButton>
+                  Live Link
+                </p>
+              </a>
+            </div>
+          </div>
+          {/*  */}
+          <div className="project">
             <img src={zomato} alt="Zomato Project_Photo"></img>
             <div className="layer">
               <h1>Zomato Landing Page</h1>
@@ -367,35 +395,6 @@ const Home = () => {
             </div>
           </div>
           {/*  */}
-          <div className="project">
-            <img src={calculater} alt="Calculater Project_Photo"></img>
-            <div className="layer">
-              <h1>Calculator</h1>
-              <p>
-                A fully functional calculator created using HTML, CSS, and
-                JavaScript
-              </p>
-
-              <a
-                href="https://sabarinayagam.github.io/Calculator/"
-                target="_blank"
-              >
-                <p>
-                  {" "}
-                  <IconButton
-                    size="60px"
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 1, size: "20px" }}
-                  >
-                    <LaunchIcon></LaunchIcon>
-                  </IconButton>
-                  Live Link
-                </p>
-              </a>
-            </div>
-          </div>
         </div>
 
         {/* ..................Contact................... */}
@@ -520,7 +519,7 @@ const Home = () => {
                 <input
                   type="email"
                   name="Email"
-                  placeholder="abc@email"
+                  placeholder="abc@gmail.com"
                   required
                 ></input>
                 <textarea
