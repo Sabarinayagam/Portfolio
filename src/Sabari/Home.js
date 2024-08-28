@@ -525,7 +525,7 @@ const Home = () => {
                 <textarea
                   name="Message"
                   rows="6"
-                  placeholder="Your Message..."
+                  placeholder="Your Message...."
                 ></textarea>
                 <button className="btn">submite</button>
               </form>
