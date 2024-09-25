@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../Sabari/Portfolio.css";
 import Sabari1 from "../../src/Sabari/Photo/Sabari1.jpg";
-import Sabarilogo from "D:/Portfolio/portfolio/src/Sabari/Photo/logo.png";
+import Sabarilogo from "../Sabari/Photo/logo.png";
 import react from "../../src/Sabari/Photo/react.jpg";
 import restaurant from "../../src/Sabari/Photo/restaurant.jpg";
 import w3school from "../../src/Sabari/Photo/w3school.jpg";
@@ -66,7 +66,7 @@ const Home = () => {
       ],
     },
     { DataBase: ["MySql"] },
-    { IDE: ["VS Code", "ellipse", "GitHub"] },
+    { IDE: ["VS Code", "eclipse", "GitHub"] },
   ];
 
   return (

@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Sabari/Home';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./Sabari/Home";
 
 function App() {
   return (
     <>
-    <Home></Home>
+      <Home></Home>
     </>
   );
 }
