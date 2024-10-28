@@ -52,21 +52,30 @@ const Home = () => {
 
   const data = [
     { "Programming Languages": ["Java", "JavaScript"] },
-    { "Web Technology": ["HTML5", "CSS3", "BootStrap5", "Material UI"] },
+    {
+      "Web Technology": [
+        "HTML5",
+        "CSS3",
+        "BootStrap5",
+        "Material UI",
+        "REST API",
+        "Postman",
+      ],
+    },
     {
       Framework: [
         "React JS",
         "Redux",
         "Saga",
         "Formik",
-        "Yup",
+        // "Yup",
         "React-Router-Dom",
         "NodeJS",
         "Express JS",
       ],
     },
     { DataBase: ["MySql"] },
-    { IDE: ["VS Code", "eclipse", "GitHub"] },
+    { IDE: ["VS Code", "Eclipse", "GitHub"] },
   ];
 
   return (
@@ -130,7 +139,7 @@ const Home = () => {
           <div className="namecont">
             <p>Hello I'm</p>
             <h1>Sabari Nayagam</h1>
-            <h2>Front End Developer</h2>
+            <h2>Full Stack Developer</h2>
             <Stack spacing={2} direction="row">
               <a href={Sabari_Resume} download="Sabari Resume.pdf">
                 {" "}
@@ -175,7 +184,7 @@ const Home = () => {
               {" "}
               and proficient in HTML5, CSS3, Bootstrap, Material-UI, JavaScript,
               Redux, React JS, Yup, Formik, Node JS, Express JS, Java, MySQL,
-              GitHub, and API integration.
+              GitHub, and API integration,REST API.
             </span>
           </p>
         </div>
@@ -222,7 +231,15 @@ const Home = () => {
                   <td>
                     {Array.isArray(value) ? (
                       value.map((val, i) => (
-                        <button key={i} className="tablebtn">
+                        <button
+                          key={i}
+                          className="btn"
+                          id="btn"
+                          style={{
+                            left: "20px",
+                          }}
+                        >
+                          {/* <button key={i} className="tablebtn"> */}
                           {val}
                         </button>
                       ))
