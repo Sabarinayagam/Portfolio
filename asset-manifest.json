@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9fa688b5.css",
-    "main.js": "/Portfolio/static/js/main.fa039a79.js",
+    "main.css": "/Portfolio/static/css/main.1e5484e1.css",
+    "main.js": "/Portfolio/static/js/main.a2748fda.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/zomato.PNG": "/Portfolio/static/media/zomato.6711486320cf31ea4ffb.PNG",
     "static/media/logo.png": "/Portfolio/static/media/logo.094ebb7de4cd4491a617.png",
@@ -14,12 +14,12 @@
     "static/media/calculater.PNG": "/Portfolio/static/media/calculater.82d80440e3ee438c2bd0.PNG",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.9fa688b5.css.map": "/Portfolio/static/css/main.9fa688b5.css.map",
-    "main.fa039a79.js.map": "/Portfolio/static/js/main.fa039a79.js.map",
+    "main.1e5484e1.css.map": "/Portfolio/static/css/main.1e5484e1.css.map",
+    "main.a2748fda.js.map": "/Portfolio/static/js/main.a2748fda.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fa688b5.css",
-    "static/js/main.fa039a79.js"
+    "static/css/main.1e5484e1.css",
+    "static/js/main.a2748fda.js"
   ]
 }
