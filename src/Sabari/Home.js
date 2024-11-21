@@ -7,6 +7,7 @@ import restaurant from "../../src/Sabari/Photo/restaurant.jpg";
 import w3school from "../../src/Sabari/Photo/w3school.jpg";
 import zomato from "../../src/Sabari/Photo/zomato.PNG";
 import calculater from "../../src/Sabari/Photo/calculater.PNG";
+import apartment from "../../src/Sabari/Photo/apartment.PNG";
 import Sabarinayagam_Resume from "../../src/Sabari/Photo/Sabarinayagam-Resume.pdf";
 import Sabari_Resume from "../../src/Sabari/Photo/Sabari_Resume.pdf";
 
@@ -276,6 +277,34 @@ const Home = () => {
                 href="https://sabari-ecommerce-project.netlify.app/"
                 target="_blank"
               >
+                <p>
+                  {" "}
+                  <IconButton
+                    size="60px"
+                    edge="start"
+                    color="inherit"
+                    aria-label="menu"
+                    sx={{ mr: 1, size: "20px" }}
+                  >
+                    <LaunchIcon></LaunchIcon>
+                  </IconButton>
+                  Live Link
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="project">
+            <img src={apartment} alt="Apartment Website"></img>
+            <div className="layer">
+              <h1>Apartment Website</h1>
+              <p>
+                Developed a modern apartment website using React, showcasing a
+                responsive design that adapts to all devices, smooth animations
+                for interactive visuals, efficient code for optimal performance,
+                and a user-friendly interface.
+              </p>
+
+              <a href="https://apartment-website.netlify.app/" target="_blank">
                 <p>
                   {" "}
                   <IconButton
