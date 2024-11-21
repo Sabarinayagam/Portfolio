@@ -136,7 +136,7 @@ const Home = () => {
       {/* ..................Banner................... */}
 
       <div className="banner" id="banner">
-        <div className="name">
+        <div className="name" data-aos="zoom-in">
           <div className="namecont">
             <p>Hello I'm</p>
             <h1>Sabari Nayagam</h1>
@@ -152,7 +152,7 @@ const Home = () => {
             </Stack>
           </div>
         </div>
-        <div className="photo">
+        <div className="photo" data-aos="zoom-in">
           <img src={Sabari1} alt="Sabarinayagam_Photo"></img>
         </div>
       </div>
@@ -169,10 +169,10 @@ const Home = () => {
         </svg>
       </div>
       <div className="aboutbanner">
-        <div className="aboutphoto">
+        <div className="aboutphoto" data-aos="zoom-in">
           <img src={Sabarilogo} alt="Sabarinayagam_Photo"></img>
         </div>
-        <div className="aboutcont" id="about">
+        <div className="aboutcont" id="about" data-aos="zoom-in">
           <h1>
             About <span style={{ color: "rgb(218, 63, 29)" }}>Me :</span>
           </h1>
@@ -202,23 +202,23 @@ const Home = () => {
       <div className="black">
         {/* ..................Certification................... */}
 
-        <div className="center">
+        <div className="center" data-aos="zoom-in">
           <h1 id="heading">
             Certification <span style={{ color: "rgb(218, 63, 29)" }}>:</span>
           </h1>
         </div>
-        <div className="certification">
+        <div className="certification" data-aos="zoom-in">
           <h2>FULL STACK JAVA DEVELOPER</h2>
         </div>
 
         {/* ..................Technical Skills................... */}
 
-        <div className="techskill">
+        <div className="techskill" data-aos="zoom-in">
           <h1 id="heading">
             Technical <span>skills :</span>
           </h1>
         </div>
-        <table>
+        <table data-aos="flip-left">
           <thead></thead>
           <tbody>
             {data.map((item, index) => {
@@ -256,7 +256,7 @@ const Home = () => {
 
         {/* ..................Project................... */}
 
-        <div className="techskill" id="projects">
+        <div className="techskill" id="projects" data-aos="zoom-in">
           <h1 id="heading">
             My <span>Project :</span>
           </h1>
@@ -292,6 +292,7 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">E-Commerce Website </h3>
           </div>
           <div className="project">
             <img src={apartment} alt="Apartment Website"></img>
@@ -320,6 +321,7 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">Apartment Website </h3>
           </div>
           <div className="project">
             <img src={w3school} alt="W3school Project_Photo"></img>
@@ -350,6 +352,7 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">W3school Website </h3>
           </div>
           <div className="project">
             <img src={restaurant} alt=" Restaurant Project_Photo"></img>
@@ -379,6 +382,7 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">Restaurant Website </h3>
           </div>
           {/*  */}
           <div className="project">
@@ -409,6 +413,7 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">Calculater </h3>
           </div>
           {/*  */}
           <div className="project">
@@ -439,19 +444,20 @@ const Home = () => {
                 </p>
               </a>
             </div>
+            <h3 className="proName">Zomato Landing Page </h3>
           </div>
           {/*  */}
         </div>
 
         {/* ..................Contact................... */}
 
-        <div className="techskill" id="projects">
+        <div className="techskill" id="projects" data-aos="zoom-in">
           <h1 id="heading">
             Contact <span>Details :</span>
           </h1>
         </div>
 
-        <div className="contact" id="contact">
+        <div className="contact" id="contact" data-aos="zoom-in">
           <div className="row">
             <div className="cont_left">
               <h1 className="sub_title">
