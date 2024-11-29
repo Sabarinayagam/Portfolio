@@ -502,6 +502,14 @@ footer {
   background-color: #212423;
   margin-top: 40px;
 }
+.projectbtn {
+  background-color: blue;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 2px 20px;
+  cursor: pointer;
+}
 
 /* ....................... media query...................... */
 
@@ -548,7 +556,7 @@ footer {
   }
   .banner {
     flex-direction: column-reverse;
-    margin-top: 250px;
+    /* margin-top: -250px; */
   }
   .name h1,
   .name h2,
@@ -563,7 +571,8 @@ footer {
   .aboutbanner {
     transform: translateY(-80px);
   }
-  .aboutphoto {
+  .aboutphoto,
+  .photo {
     display: none;
   }
   .aboutcont h1 {
@@ -655,14 +664,19 @@ footer {
   }
   /* ..................banner .................*/
   .banner {
-    margin-top: 200px;
+    /* margin-top: 200px; */
   }
 
   .namecont h1 {
     font-size: 40px;
-    margin: 10px;
+    margin: 20px;
   }
-
+  .namecont h2 {
+    margin: 20px;
+  }
+  .namecont button {
+    margin-top: 30px;
+  }
   .aboutbanner {
     transform: translateY(-100px);
   }

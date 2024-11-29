@@ -277,7 +277,7 @@ const Home = () => {
                 href="https://sabari-ecommerce-project.netlify.app/"
                 target="_blank"
               >
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -289,7 +289,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">E-Commerce Website </h3>
@@ -306,7 +306,7 @@ const Home = () => {
               </p>
 
               <a href="https://apartment-website.netlify.app/" target="_blank">
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -318,7 +318,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">Apartment Website </h3>
@@ -337,7 +337,7 @@ const Home = () => {
                 href="https://sabarinayagam.github.io/w3schools/"
                 target="_blank"
               >
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -349,7 +349,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">W3school Website </h3>
@@ -367,7 +367,7 @@ const Home = () => {
                 href="https://sabari-ecommerce-project.netlify.app/"
                 target="_blank"
               >
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -379,7 +379,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">Restaurant Website </h3>
@@ -390,15 +390,16 @@ const Home = () => {
             <div className="layer">
               <h1>Calculator</h1>
               <p>
-                A fully functional calculator created using HTML, CSS, and
-                JavaScript
+                Developed a fully functional Calculator using HTML5, styled with
+                CSS for a clean interface, and powered by JavaScript to perform
+                basic Arithmetic Operations seamlessly.
               </p>
 
               <a
                 href="https://sabarinayagam.github.io/Calculator/"
                 target="_blank"
               >
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -410,7 +411,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">Calculater </h3>
@@ -421,15 +422,17 @@ const Home = () => {
             <div className="layer">
               <h1>Zomato Landing Page</h1>
               <p>
-                Zomato landing page in web development using
-                HTML5,CSS3,Javascript.
+                Developed a visually appealing and responsive Zomato landing
+                page using HTML5 for structure, CSS for styling with modern
+                animations, and JavaScript to add interactive features for an
+                engaging user experience.
               </p>
 
               <a
                 href="https://sabarinayagam.github.io/Zomato-Landing-Page/"
                 target="_blank"
               >
-                <p>
+                <button className="projectbtn">
                   {" "}
                   <IconButton
                     size="60px"
@@ -441,7 +444,7 @@ const Home = () => {
                     <LaunchIcon></LaunchIcon>
                   </IconButton>
                   Live Link
-                </p>
+                </button>
               </a>
             </div>
             <h3 className="proName">Zomato Landing Page </h3>
