@@ -10,6 +10,7 @@ import calculater from "../../src/Sabari/Photo/calculater.PNG";
 import apartment from "../../src/Sabari/Photo/apartment.PNG";
 import Sabarinayagam_Resume from "../../src/Sabari/Photo/Sabarinayagam-Resume.pdf";
 import Sabari_Resume from "../../src/Sabari/Photo/Sabari_Resume.pdf";
+import codeingphoto from "../../src/Sabari/Photo/coding-photo.png";
 
 import Stack from "@mui/material/Stack";
 import { IconButton } from "@mui/material";
@@ -21,9 +22,12 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LaunchIcon from "@mui/icons-material/Launch";
 import Avatar from "@mui/material/Avatar";
 import zIndex from "@mui/material/styles/zIndex";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [counterOn, setCounterOn] = useState(false);
   const navbarRef = useRef(null);
 
   const toggleNavbar = () => {
@@ -153,7 +157,8 @@ const Home = () => {
           </div>
         </div>
         <div className="photo" data-aos="zoom-in">
-          <img src={Sabari1} alt="Sabarinayagam_Photo"></img>
+          <img src={codeingphoto} alt="Sabarinayagam_Photo"></img>
+          {/* <img src={Sabari1} alt="Sabarinayagam_Photo"></img> */}
         </div>
       </div>
 
@@ -255,6 +260,22 @@ const Home = () => {
         </table>
 
         {/* ..................Project................... */}
+
+        <ScrollTrigger
+          onEnter={() => setCounterOn(true)}
+          onExit={() => setCounterOn(false)}
+        >
+          <div className="count" data-aos="zoom-in">
+            <div className="countbox">
+              <h1>
+                {counterOn && (
+                  <CountUp start={0} end={10} duration={3} delay={0}></CountUp>
+                )}
+              </h1>
+              <h2>Total Projects</h2>
+            </div>
+          </div>
+        </ScrollTrigger>
 
         <div className="techskill" id="projects" data-aos="zoom-in">
           <h1 id="heading">
@@ -574,7 +595,7 @@ const Home = () => {
                 <input
                   type="email"
                   name="Email"
-                  placeholder="abc@gmail.com"
+                  placeholder="name@gmail.com"
                   required
                 ></input>
                 <textarea

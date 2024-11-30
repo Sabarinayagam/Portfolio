@@ -369,8 +369,31 @@ td {
   margin-top: 2px;
   border: none;
 }
-.tablebtn:hover {
-  /* color: blue; */
+
+/* .............Project Count................... */
+
+.count {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.countbox {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  padding: 30px 40px;
+  background-color: var(--orange);
+}
+
+.count h1 {
+  align-items: center;
+  font-size: 122px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid var(--orange);
 }
 
 /* ....................projects.................. */
@@ -615,7 +638,9 @@ footer {
   }
 
   /* .......Project.......... */
-
+  .countbox {
+    background: none;
+  }
   .project_list {
     grid-template-columns: auto;
     margin-left: -30px;
