@@ -450,7 +450,7 @@ const Home = () => {
               </p>
 
               <a
-                href="https://sabarinayagam.github.io/Zomato-Landing-Page/"
+                href="https://zomato-website-landing-page.netlify.app/"
                 target="_blank"
               >
                 <button className="projectbtn">
