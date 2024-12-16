@@ -557,6 +557,11 @@ footer {
     align-self: flex-start;
     margin: 10px 0px 0px 30px;
   }
+  .logoname {
+    padding-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+  }
 
   .menu {
     display: block;
@@ -752,9 +757,9 @@ footer {
   #heading {
     font-size: 40px;
   }
-  .logoname {
+  /* .logoname {
     font-size: 35px;
-  }
+  } */
   /* .........button........ */
   #btn {
     margin: 3px;

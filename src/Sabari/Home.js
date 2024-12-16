@@ -284,7 +284,7 @@ const Home = () => {
         </div>
 
         <div className="project_list">
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={react} alt="React Project Photo"></img>
             <div className="layer">
               <h1>E-Commerce Website</h1>
@@ -315,7 +315,7 @@ const Home = () => {
             </div>
             <h3 className="proName">E-Commerce Website </h3>
           </div>
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={apartment} alt="Apartment Website"></img>
             <div className="layer">
               <h1>Apartment Website</h1>
@@ -344,7 +344,7 @@ const Home = () => {
             </div>
             <h3 className="proName">Apartment Website </h3>
           </div>
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={w3school} alt="W3school Project_Photo"></img>
             <div className="layer">
               <h1>W3schools Landing Page</h1>
@@ -375,7 +375,7 @@ const Home = () => {
             </div>
             <h3 className="proName">W3school Website </h3>
           </div>
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={restaurant} alt=" Restaurant Project_Photo"></img>
             <div className="layer">
               <h1>Restaurant Website</h1>
@@ -406,7 +406,7 @@ const Home = () => {
             <h3 className="proName">Restaurant Website </h3>
           </div>
           {/*  */}
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={calculater} alt="Calculater Project_Photo"></img>
             <div className="layer">
               <h1>Calculator</h1>
@@ -438,7 +438,7 @@ const Home = () => {
             <h3 className="proName">Calculater </h3>
           </div>
           {/*  */}
-          <div className="project">
+          <div className="project" data-aos="flip-left">
             <img src={zomato} alt="Zomato Project_Photo"></img>
             <div className="layer">
               <h1>Zomato Landing Page</h1>
